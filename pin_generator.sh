@@ -1,3 +1,4 @@
+# used to create a four digit pin. prompt for number of pins to create if not initially provided
 pins=$1  
 
 if [[ -z $pins ]]; then
