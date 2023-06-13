@@ -2,7 +2,7 @@
 pins=$1  
 
 if [[ -z $pins ]]; then
-    echo "Please provide the desired count as an argument."
+    echo "Please provide the number of pins you wish to create."
     exit 1
 fi
 
